@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaş Hesaplama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/yas.css">
+  <script src="assets/js/yas.js"defer></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <form class="yasHesaplama">
+  
+      <div class="item">
+        <label for="dogumgunu">GÜN</label>
+        <input type="number" min="1" max="31" maxlength="02" name="dogumgunu" id="dogumgunu" placeholder="DD">
+      </div>
+  
+      <div class="item">
+        <label for="dogumayi">AY</label>
+        <input type="number" min="01" max="12" maxlength="02" name="dogumayi" id="dogumayi" placeholder="MM">
+      </div>
+  
+      <div class="item">
+        <label for="dogumyili">YIL</label>
+        <input type="number" maxlength="04" max="2024" name="dogumyili" id="dogumyili" placeholder="YYYY"> 
+      </div>
+  
+    </form>
+    
+    <div class="design">
+      <hr>
+     <button class="btnAdd"> <img src="assets/img/ok.svg" alt="Aşağı bakan ok işareti"> </button> 
+    </div>
+
+    <div class="result">
+
+      <div class="yilHesaplama">
+        <p></p>
+        <h1>yıl</h1>
+      </div>
+  
+      <div class="ayHesaplama">
+        <p></p>
+        <h1>ay</h1>
+      </div>
+  
+      <div class="gunHesaplama">
+        <p></p>
+        <h1>gün</h1>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+
+</body>
+</html>
